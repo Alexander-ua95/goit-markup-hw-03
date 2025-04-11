@@ -1,7 +1,44 @@
+.container {
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+a {
+    list-style-type: none;
+}
+ul {
+    margin: 0;  
+    padding: 0;
+    list-style-type: none;  
+}
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #FFFFFF;
+}
+.header-container {
+    display: flex;
+    align-items: center;
+}
+.page-header {
+    border-bottom: 1px solid #e7e9fc;
+}
+.header-nav {
+    display: flex;
+    align-items: center;
+}
+.nav-list {
+    display: flex;
+    gap: 40px;
+}
+
+.adressa-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
 }
 .logo {
     font-family: "Raleway",
@@ -13,10 +50,16 @@ body {
         text-transform: uppercase;
         color: #4d5ae5;
 }
+.header-logo {
+    padding: 24px 0;
+    margin-right: 76px;
+}
 .logo-studio {
     color: #2e2f42;
 }
 .a-studio {
+    padding: 24px 0;
+    display: block;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -29,8 +72,11 @@ body {
 }
 .adressa {
     font-style: normal;
+    margin-left: auto;
 }
 .email {
+    padding: 24px 0;
+    display: block;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
