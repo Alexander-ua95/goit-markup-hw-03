@@ -88,8 +88,10 @@ body {
 }
 .s-title {
     background-color: #2e2f42;
+    padding: 188px 0;
 }
 .business {
+    max-width: 496px;
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
@@ -97,6 +99,11 @@ body {
     color: #ffffff;
 }
 .button-service {
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
     font-family: "Roboto",
         sans-serif;
     font-weight: 500;
@@ -111,7 +118,21 @@ body {
 .button-service:focus {
     background-color: #404BBF;
 }
+.section-features {
+    padding: 120px 0;
+}
+.visually-hidden {
+    visibility: hidden;
+}
+.spdt {
+    display: flex;
+    gap: 24px;
+}
+.ul-list {
+    width:calc((100% - 72px) / 4);
+}
 .h-strategy {
+    margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -125,9 +146,11 @@ body {
     color: #434455;
 }
 .our-team {
+    padding: 120px 0;
     background-color: #F4F4FD;
 }
 .h-ourteam {
+    margin-bottom: 72px;
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -135,10 +158,20 @@ body {
     text-transform: capitalize;
     color: #2e2f42;
 }
+.team {
+    display: flex;
+    gap:    24px;
+}
 .li-team {
+    width: calc((100% - 72px) / 4);
     background-color: #FFFFFF;
+    border-radius: 0px 0px 4px 4px;
+}.worker {
+    padding: 32px 0;
 }
 .team-mark {
+    text-align: center;
+    margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -146,12 +179,23 @@ body {
     color: #2e2f42;
 }
 .team-landing {
+    text-align: center;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
+.s-ourportfolio {
+    padding-top: 120px;
+}
+.c-portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
 .h-portfolio {
+    margin-bottom: 72px;
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -159,7 +203,13 @@ body {
     text-transform: capitalize;
     color: #2e2f42;
 }
+.programs {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
 .banking-app {
+    margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -173,13 +223,19 @@ body {
     color: #434455;
 }
 .basement {
+    padding: 100px 0;
     background-color: #2e2f42;
 }
 .logo-studio-basement {
     color: #f4f4fd;
 }
 .p-basement {
+    max-width: 264px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #F4F4FD;
+}
+.footer-logo {
+    display: inline-block;
+    margin-bottom: 16px;
 }
